@@ -1,4 +1,4 @@
-# Hello World OS 🦀
+# Hello World OS
 
 > An entire operating system, just to say "Hello World". Because why not?
 
