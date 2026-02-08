@@ -1,0 +1,10 @@
+[build]
+target = "i686-hello_os.json"
+
+[unstable]
+build-std = ["core", "compiler_builtins", "alloc"]
+build-std-features = ["compiler-builtins-mem"]
+json-target-spec = true
+
+[target.i686-hello_os]
+rustflags = ["-C", "link-arg=-Tlinker.ld"]
